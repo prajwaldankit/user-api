@@ -1,0 +1,50 @@
+.heading-container {
+  position: sticky;
+  top: 0;
+  background: white;
+  border-bottom: 2px solid black;
+}
+.heading-container.profile {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: white;
+  border-bottom: 2px solid black;
+}
+.btn.btn-back {
+  background: white;
+  border: 1px solid white;
+}
+.btn.btn-back.list {
+  display: none;
+}
+.btn.btn-back:hover {
+  cursor: pointer;
+}
+.back-arrow {
+  font-size: 64px;
+}
+.heading {
+  text-align: center;
+  font-size: 64px;
+}
+.list-item.profile-pic {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  border: 1px solid green;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid #777;
+}
+.list-item:hover {
+  cursor: pointer;
+  background: #999;
+}
